@@ -8,3 +8,4 @@ To run this project you need :<br>
 
 run via: ```python3 main.py```
 
+![Maths requied for the above](https://github.com/OBrutus/DataMining/blob/master/2.LinearRegression/math_ref.jpeg)
