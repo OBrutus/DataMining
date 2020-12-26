@@ -8,3 +8,7 @@ NIFTY-50 Stock Market Data (2000 - 2020)
 Stock price data of the fifty stocks in NIFTY-50 index from NSE India
 
 ## 2. Linear Regression
+Linear Regression calculation <br>
+DataSet Used here : https://www.kaggle.com/mohansacharya/graduate-admissions
+Graduate Admission 2
+Predicting admission from important parameters
