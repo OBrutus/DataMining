@@ -53,3 +53,15 @@ if __name__ == '__main__':
 
     r = ( n*(sum(xy)) - sum(x)*sum(y) ) / math.sqrt( (n*sum(x_sq)-sum(x)**2) * (n*sum(y_sq)-sum(y)**2) )
     print('r = ',r)
+
+
+    ### Y= a + bX
+    # for a
+
+    a = y_sum*sum(x_sq) - x_sum*sum(xy) 
+    a = a / ( n*sum(x_sq) - x_sum**2 )
+
+    b = n*(sum(xy)) - (x_sum*y_sum)
+    b = b / ( n*sum(x_sq) - x_sum**2 )
+
+    print('the equation is  y = '+str(a)+' + '+str(b)+' * x')
